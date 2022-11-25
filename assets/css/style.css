@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    color: #232536;
+}
+h1{
+    font-size: 48px;
+    line-height: 64px;
+}
+h2{
+    font-size: 36px;
+    line-height: 48px;
+}
+h3{
+    font-size: 28px;
+    line-height: 36px;
+}
+h4{
+    font-size: 24px;
+    line-height: 32px;
+}
+h5{
+    font-size: 20px;
+    line-height: 32px;
+}
+h6{
+    font-size: 16px;
+    line-height: 24px;
+}
+p{
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    color: #232536;
+    font-size: 16px;
+    line-height: 28px;
+}
+span{
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    color: #232536;
+    font-size: 14px;
+    line-height: 20px;
+}
+.theme_btn{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    color: #232536;
+    font-size: 18px;
+    padding: 16px 48px;
+    background: #ffd050;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+}
+.theme_btn:hover{
+    background: #EDC14A;
+    color: #232536;
+    border: none;
+    outline: none;
+}
+/* ===== header_area start ===== */
+#header_part{
+    background: #232536;
+    padding: 20px 0;
+}
+#header_part .navbar-toggler i{
+    color: #6d6e76;
+}
+.menu .nav-item{
+    margin-left: 35px;
+    transition: 0.3s;
+}
+.menu .nav-item .nav-link{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+}
+.menu .nav-item:last-child .nav-link{
+    background: #ffffff;
+    padding: 8px 30px;
+    color: #232536;
+    font-weight: 700;
+    display: inline-block;
+    cursor: pointer;
+}
+.menu .nav-item .nav-link.active,
+.menu .nav-item:hover .nav-link{
+    color: #ffd050;
+}
+.menu .nav-item.sub:hover .nav-link{
+    background: #ffd050;
+    color: #232536;
+}
+/* ===== main_area start ===== */
+main{
+    padding: 50px 0;
+}
+/* ===== footer_area start */
+#footer_area{
+    background: #232536;
+    padding: 60px 0px;
+}
+#footer_area nav{
+    margin-bottom: 50px;
+}
+.footer_menu .nav-item{
+    margin-left: 35px;
+    transition: 0.3s;
+}
+.footer_menu .nav-item .nav-link{
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+}
+.footer_menu .nav-item:hover .nav-link{
+    color: #ffd050;
+}
+.footer_newsletter{
+    background: #2e3040;
+    padding: 80px 50px;
+}
+.newsletter_content h2{
+    color: #ffffff;
+}
+.newsletter_form .theme_btn{
+    margin-left: 10px;
+}
+.newsletter_form input {
+    background: transparent;
+    border: 1px solid #4c4c4c;
+    color: #fff;
+    padding: 15px 15px;
+    width: 285px;
+    font-size: 18px;
+}
+.newsletter_form input:focus{
+    outline: none;
+}
+.footer_bottom{
+    margin-top: 40px;
+}
+.footer_bottom span {
+    color: #ffffff;
+    display: block;
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.footer_social_icon{
+    text-align: right;
+}
+.footer_social_icon a{
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.footer_social_icon a i{
+    font-size: 16px;
+    color: #6d6e76;
+}
+.footer_social_icon a:hover i{
+    color: #ffd050;
+}

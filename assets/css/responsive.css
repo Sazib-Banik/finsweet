@@ -1,0 +1,58 @@
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+    /* ===== header start ===== */
+    #header_part .navbar-toggler {
+        border: none;
+      }
+      #header_part .navbar-toggler:hover {
+        box-shadow: none;
+      } 
+    /* ===== footer start ===== */ 
+    .footer_menu .nav-item {
+        margin-left: 20px;
+        padding-top: 10px;
+    }
+    .footer_menu .nav-item .nav-link{
+        font-size: 14px;
+    }
+    .footer_newsletter {
+        background: #2e3040;
+        padding: 70px 50px;
+    }
+    .newsletter_content h2 {
+        margin-bottom: 15px;
+    }
+
+}
+  
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+     /* ===== footer start ===== */  
+    .footer_menu .nav-item {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    h2{
+        font-size: 30px;
+    }
+    .theme_btn{
+        padding: 16px 35px;
+    }
+    /* ===== footer start ===== */  
+    .footer_menu .nav-item {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .footer_menu .nav-item .nav-link{
+        font-size: 14px;
+        padding: 8px;
+    }
+    .newsletter_form input {
+        width: 250px;
+    }
+
+}
