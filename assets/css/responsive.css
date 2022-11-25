@@ -1,5 +1,9 @@
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+        line-height: 52px;
+    }
   /* ===== header start ===== */
   #header_part .navbar-toggler {
     border: none;
@@ -25,6 +29,17 @@
   /* ===== catagory_part start ====== */
   .catagory_item{
     margin-top: 35px;
+  }
+  /* ===== special_post_part start ====== */
+  .special_post_box{
+    position: static;
+  }
+  .special_post_box img{
+    width: 100%;
+  }
+  .special_post_part{
+    position: static;
+    width: 100%;
   }
   /* ===== footer start ===== */
   .footer_menu .nav-item {
