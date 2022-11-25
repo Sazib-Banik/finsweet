@@ -162,11 +162,12 @@ p{
 }
 /* ===== feature_part start */
 #feature_part{
-    padding-top: 120px;
+    padding: 120px 0;
 }
 .feature_part_right h2,
 .feature_part_left h2{
     margin-bottom: 20px;
+    letter-spacing: -1px;
 }
 .feature_post_box{
     border: 1px solid #f0f0f1;
@@ -177,6 +178,7 @@ p{
 }
 .feature_post_box p{
     margin: 20px 0;
+    color: #6D6E76;
 }
 .feature_part_right{
     padding: 20px;
@@ -199,6 +201,53 @@ p{
 }
 .post_box:hover{
     background: #fbf6ea;
+}
+/* ===== about_mission_part start ====== */
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: #ffd050;
+}
+.purpal{
+    background-color: #592ea9;
+}
+.about_mission_content{
+    padding: 100px;
+    background: #f4f0f8;
+}
+.mission_part,
+.about_part{
+    padding-right: 20px;
+}
+.mission_text,
+.about_text{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #232536;
+    margin-bottom: 15px;
+}
+.about_part h2{
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+.about_part p{
+    margin-bottom: 20px;
+    color: #6D6E76;
+}
+.about_part .theme_btn{
+    background: none;
+    padding: 0;
+    color: #592ea9;
+}
+.mission_part h3{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.mission_part p{
+    color: #6D6E76;
 }
 /* ===== footer_area start */
 #footer_area{
