@@ -22,6 +22,10 @@
   .mission_part {
     margin-top: 35px;
   }
+  /* ===== catagory_part start ====== */
+  .catagory_item{
+    margin-top: 35px;
+  }
   /* ===== footer start ===== */
   .footer_menu .nav-item {
     margin-left: 20px;
