@@ -27,6 +27,7 @@
     margin-top: 35px;
   }
   /* ===== catagory_part start ====== */
+  .author_box,
   .catagory_item{
     margin-top: 35px;
   }
@@ -41,6 +42,8 @@
     position: static;
     width: 100%;
   }
+  /* ===== authors_part start ====== */
+
   /* ===== footer start ===== */
   .footer_menu .nav-item {
     margin-left: 20px;
