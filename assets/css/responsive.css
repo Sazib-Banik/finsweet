@@ -7,6 +7,18 @@
       #header_part .navbar-toggler:hover {
         box-shadow: none;
       } 
+
+    
+    /* ===== feature_part start ===== */ 
+    #feature_part {
+        padding-top: 100px;
+    }
+    .feature_part_right{
+        margin-top: 35px;
+    }
+    .post_box {
+        padding-right: 0;
+    }
     /* ===== footer start ===== */ 
     .footer_menu .nav-item {
         margin-left: 20px;
@@ -27,6 +39,10 @@
   
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+    /* ===== feature_part start ===== */ 
+    #feature_part {
+        padding-top: 80px;
+    }
      /* ===== footer start ===== */  
     .footer_menu .nav-item {
         margin-left: 0px;
