@@ -349,6 +349,14 @@ p{
 .author_box:hover {
     background: #fbf6ea;
 }
+/* ===== client_part start ====== */
+#client_part{
+    padding: 60px 0;
+}
+.client_part_text p,
+.client_part_text h4{
+    color: #6D6E76;
+}
 /* ===== footer_area start */
 #footer_area{
     background: #232536;

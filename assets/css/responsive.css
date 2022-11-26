@@ -44,6 +44,13 @@
   }
   /* ===== authors_part start ====== */
 
+  /* ===== client_part start ====== */
+  #client_part{
+    text-align: center;
+  }
+  .client_logo{
+    margin-top: 15px;
+  }
   /* ===== footer start ===== */
   .footer_menu .nav-item {
     margin-left: 20px;
