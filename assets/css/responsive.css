@@ -1,9 +1,12 @@
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991px) {
-    h1 {
-        font-size: 40px;
-        line-height: 52px;
-    }
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  p {
+    font-size: 18px;
+  }
   /* ===== header start ===== */
   #header_part .navbar-toggler {
     border: none;
@@ -11,10 +14,14 @@
   #header_part .navbar-toggler:hover {
     box-shadow: none;
   }
-
+  /* ===== hero_part start ===== */
+  .hero_content h2 {
+    font-size: 42px;
+    line-height: 56px;
+  }
   /* ===== feature_part start ===== */
   #feature_part {
-    padding-top: 100px;
+    padding-top: 70px;
   }
   .feature_part_right {
     margin-top: 35px;
@@ -26,30 +33,74 @@
   .mission_part {
     margin-top: 35px;
   }
+  .about_mission_content {
+    padding: 60px;
+  }
   /* ===== catagory_part start ====== */
+  .heading {
+    margin-bottom: 20px;
+  }
   .author_box,
-  .catagory_item{
-    margin-top: 35px;
+  .catagory_item {
+    margin-top: 30px;
   }
   /* ===== special_post_part start ====== */
-  .special_post_box{
+  .special_post_box {
     position: static;
   }
-  .special_post_box img{
+  .special_post_box img {
     width: 100%;
   }
-  .special_post_part{
+  .special_post_part {
     position: static;
     width: 100%;
   }
-  /* ===== authors_part start ====== */
+  /* ===== author_part start ====== */
 
   /* ===== client_part start ====== */
-  #client_part{
+  #client_part {
     text-align: center;
   }
-  .client_logo{
+  .client_logo {
     margin-top: 15px;
+  }
+  /* ===== testimonial_part start ====== */
+  .testimonial_box {
+    padding: 70px 10px;
+  }
+  .testimonial_content h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .testimonial_carousel {
+    padding: 0px 15px;
+  }
+  .item {
+    padding: 0;
+  }
+  .item h4 {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .user_details h4 {
+    margin-bottom: 0;
+  }
+  .testimonial_carousel .owl-nav {
+    position: absolute;
+    content: "";
+    right: 0%;
+    bottom: 5%;
+  }
+  .testimonial_carousel .owl-next,
+  .testimonial_carousel .owl-prev {
+    font-size: 18px !important;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .testimonial_carousel .owl-next {
+    margin-left: 5px;
   }
   /* ===== footer start ===== */
   .footer_menu .nav-item {
@@ -68,30 +119,216 @@
   }
 }
 
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) {
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .theme_btn {
+    padding: 15px 35px;
+  }
+  #feature_part,
+  #about_mission,
+  #catagory_part,
+  #special_post,
+  #author,
+  #client_part,
+  #testimonial_part,
+  #footer_area {
+    padding: 40px 0;
+  }
+  /* ===== hero_part start ===== */
+  .hero_content h2 {
+    font-size: 33px;
+    line-height: 48px;
+  }
   /* ===== feature_part start ===== */
   #feature_part {
     padding-top: 80px;
   }
   /* ===== about_mission_part start ====== */
+  .feature_part_right,
+  .mission_part {
+    margin-top: 35px;
+  }
+  .about_mission_content {
+    padding: 60px 40px;
+  }
+  /* ===== catagory_part start ====== */
+  .catagory_item {
+    margin-top: 20px;
+  }
+  /* ===== special_post_part start ====== */
+  .special_post_box {
+    position: static;
+  }
+  .special_post_box img {
+    width: 100%;
+  }
+  .special_post_part {
+    position: static;
+    width: 100%;
+  }
+  /* ===== authors_part start ====== */
+  .author_box {
+    margin-top: 20px;
+  }
+  .client_logo {
+    margin-top: 20px;
+  }
+  /* ===== client_part start ====== */
 
+  /* ===== testimonial_part start ====== */
+  .testimonial_content {
+    border-right: none;
+    padding-right: 30px;
+    margin-bottom: 35px;
+  }
+  .item {
+    padding: 0;
+  }
+  .testimonial_carousel .owl-nav {
+    position: absolute;
+    content: "";
+    right: 5%;
+    bottom: 5%;
+  }
+  .testimonial_carousel .owl-next,
+  .testimonial_carousel .owl-prev {
+    font-size: 18px !important;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .testimonial_carousel .owl-next {
+    margin-left: 5px;
+  }
   /* ===== footer start ===== */
   .footer_menu .nav-item {
     margin-left: 0px;
     padding-top: 10px;
   }
+  .newsletter_form input {
+    width: 250px;
+  }
+  .newsletter_form .theme_btn {
+    padding: 16px 30px;
+  }
+  .footer_menu .nav-item .nav-link {
+    font-size: 13px;
+  }
 }
 
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 576px) {
+/*// extra-Small devices (landscape phones, 320px and up)*/
+@media (min-width: 320px) and (max-width: 575px) {
+  h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
   h2 {
     font-size: 30px;
+    line-height: 42px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #feature_part,
+  #about_mission,
+  #catagory_part,
+  #special_post,
+  #author,
+  #client_part,
+  #testimonial_part,
+  #footer_area {
+    padding: 35px 0;
   }
   .theme_btn {
-    padding: 16px 35px;
+    padding: 15px 35px;
+  }
+  .heading {
+    margin-bottom: 20px;
+  }
+  /* ===== hero_part start ====== */
+  .hero_content h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  /* ===== feature_part start ====== */
+
+  /* ===== about_mission_part start ====== */
+  .about_mission_content {
+    padding: 60px 45px;
+    background: #f4f0f8;
+  }
+  .author_box,
+  .catagory_item,
+  .mission_part,
+  .feature_part_right {
+    margin-top: 30px;
+  }
+  .about_mission_content {
+    padding: 60px 45px;
+  }
+  /* ===== catagory_part start ====== */
+
+  /* ===== special_post_part start ====== */
+  .special_post_box {
+    position: static;
+  }
+  .special_post_box img {
+    width: 100%;
+  }
+  .special_post_part {
+    position: static;
+    width: 100%;
+  }
+  /* ===== authors_part start ====== */
+
+  /* ===== client_part start ====== */
+  .client_logo {
+    padding: 20px 0;
+  }
+  /* ===== testimonial_part start ====== */
+  .testimonial_carousel .owl-nav {
+    position: absolute;
+    content: "";
+    right: 5%;
+    bottom: 5%;
+  }
+  .testimonial_carousel .owl-next,
+  .testimonial_carousel .owl-prev {
+    font-size: 18px !important;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .testimonial_carousel .owl-next {
+    margin-left: 5px;
+  }
+  .testimonial_content {
+    border-right: none;
+    padding-right: 30px;
+    margin-bottom: 35px;
+  }
+  .item {
+    padding: 0;
   }
   /* ===== footer start ===== */
+  .footer_bottom,
+  .footer_social_icon {
+    text-align: center;
+  }
   .footer_menu .nav-item {
     margin-left: 0px;
     padding-top: 10px;
@@ -102,5 +339,11 @@
   }
   .newsletter_form input {
     width: 250px;
+  }
+  .footer_social_icon {
+    padding-top: 10px;
+  }
+  .footer_social_icon a {
+    margin-left: 20px;
   }
 }
