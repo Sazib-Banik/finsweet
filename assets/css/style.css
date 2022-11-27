@@ -429,15 +429,15 @@ p {
   color: #ffffff;
 }
 /* ===== join_team_part start ====== */
-#join_team{
-    padding: 120px 0;
-    padding-top: 60px;
+#join_team {
+  padding: 120px 0;
+  padding-top: 60px;
 }
-#join_team .heading{
-    padding: 0px 85px;
+#join_team .heading {
+  padding: 0px 85px;
 }
-#join_team .theme_btn{
-    margin-top: 30px;
+#join_team .theme_btn {
+  margin-top: 30px;
 }
 /* ===== footer_area start */
 #footer_area {
@@ -447,9 +447,12 @@ p {
 #footer_area nav {
   margin-bottom: 50px;
 }
-.footer_menu{
-    padding: 0;
-    text-align: right;
+.nav {
+  margin-bottom: 30px;
+}
+.footer_menu {
+  padding: 0;
+  text-align: right;
 }
 .footer_menu .nav-item {
   margin-left: 35px;

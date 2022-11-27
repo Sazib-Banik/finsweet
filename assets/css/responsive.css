@@ -1,10 +1,44 @@
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  /* ===== hero_part start ===== */
+  /* ===== feature_part start ====== */
+  .post_box {
+    padding-right: 15px;
+  }
+  /* ===== about_mission_part start ====== */
+  /* ===== catagory_part start ====== */
+  .catagory_item {
+    padding: 30px 10px;
+  }
+  /* ===== special_post_part start ====== */
+  .special_post_part {
+    width: 650px;
+  }
+  /* ===== authors_part start ====== */
+  .author_box h3 {
+    font-size: 24px;
+  }
+  /* ===== client_part start ====== */
+  /* ===== testimonial_part start ====== */
+  .testimonial_carousel .owl-nav {
+    right: 10%;
+  }
   /* ===== join_team start ===== */
   #join_team .heading {
     padding: 0px 0px;
   }
   #join_team .heading h2 {
     font-size: 35px;
+  }
+  /* ===== footer_part start ===== */
+  .footer_menu .nav-item {
+    margin-left: 10px;
+  }
+  .newsletter_form input {
+    width: 210px;
   }
 }
 /*// Medium devices (tablets, 768px and up)*/
@@ -77,6 +111,9 @@
   .testimonial_box {
     padding: 70px 10px;
   }
+  .testimonial_content {
+    padding: 0 15px;
+  }
   .testimonial_content h2 {
     font-size: 28px;
     line-height: 36px;
@@ -121,8 +158,8 @@
   }
   /* ===== footer start ===== */
   .footer_menu .nav-item {
-    margin-left: 20px;
-    padding-top: 10px;
+    margin-left: 0px;
+    padding-top: 0px;
   }
   .footer_menu .nav-item .nav-link {
     font-size: 14px;
@@ -133,6 +170,9 @@
   }
   .newsletter_content h2 {
     margin-bottom: 15px;
+  }
+  .newsletter_form input {
+    width: 380px;
   }
 }
 
@@ -172,6 +212,9 @@
   #feature_part {
     padding-top: 80px;
   }
+  .post_box {
+    padding: 20px 15px;
+  }
   /* ===== about_mission_part start ====== */
   .feature_part_right,
   .mission_part {
@@ -194,7 +237,9 @@
   .special_post_part {
     position: static;
     width: 100%;
+    padding: 30px 10px;
   }
+
   /* ===== authors_part start ====== */
   .author_box {
     margin-top: 20px;
@@ -249,6 +294,14 @@
   .newsletter_form .theme_btn {
     padding: 16px 30px;
   }
+  #footer_area .nav,
+  .footer_menu {
+    text-align: center;
+  }
+  #footer_area .nav a.navbar-brand,
+  #footer_area .nav {
+    margin-bottom: 10px;
+  }
   .footer_menu .nav-item .nav-link {
     font-size: 13px;
   }
@@ -256,23 +309,22 @@
 
 /*// extra-Small devices (landscape phones, 320px and up)*/
 @media (min-width: 320px) and (max-width: 575px) {
- 
   h1 {
     font-size: 25px;
     line-height: 35px;
-}
+  }
   h2 {
     font-size: 20px;
     line-height: 28px;
-}
+  }
   h3 {
     font-size: 20px;
     line-height: 28px;
-}
-h4 {
-  font-size: 20px;
-  line-height: 28px;
-}
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
   p {
     font-size: 14px;
   }
@@ -298,23 +350,24 @@ h4 {
     font-size: 19px;
     line-height: 32px;
     margin-bottom: 20px;
-}
-.hero_content .hero_top {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-.hero_content p {
-  margin-bottom: 25px;
-}
+  }
+  .hero_content .hero_top {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .hero_content p {
+    margin-bottom: 25px;
+  }
   /* ===== feature_part start ====== */
   .feature_part_right {
     padding: 20px 0px;
     padding-top: 0;
     margin-top: 30px;
-}
-  .feature_part_right h2, .feature_part_left h2 {
+  }
+  .feature_part_right h2,
+  .feature_part_left h2 {
     font-size: 25px;
-}
+  }
   .post_box {
     padding: 10px;
     margin-top: 20px;
@@ -322,14 +375,15 @@ h4 {
   /* ===== about_mission_part start ====== */
   .about_mission_content {
     padding: 60px 10px;
-}
-.mission_part, .about_part {
-  padding-right: 0px;
-}
-.mission_part h3 {
-  line-height: 28px;
-  margin-bottom: 20px;
-}
+  }
+  .mission_part,
+  .about_part {
+    padding-right: 0px;
+  }
+  .mission_part h3 {
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
   .author_box,
   .catagory_item,
   .mission_part,
@@ -350,7 +404,7 @@ h4 {
     width: 100%;
     padding: 30px 10px;
   }
-  
+
   /* ===== authors_part start ====== */
 
   /* ===== client_part start ====== */
@@ -360,13 +414,13 @@ h4 {
   /* ===== testimonial_part start ====== */
   .testimonial_box {
     padding: 50px 10px;
-}
-.testimonial_carousel .owl-nav {
-  position: absolute;
-  content: "";
-  right: 2%;
-  bottom: -10%;
-}
+  }
+  .testimonial_carousel .owl-nav {
+    position: absolute;
+    content: "";
+    right: 2%;
+    bottom: -10%;
+  }
   .testimonial_carousel .owl-next,
   .testimonial_carousel .owl-prev {
     font-size: 18px !important;
@@ -393,14 +447,21 @@ h4 {
   }
   #join_team .heading {
     padding: 0px 10px;
-}
+  }
   /* ===== footer start ===== */
-  .footer_menu{
+  #footer_area .nav {
     text-align: center;
-}
-.footer_newsletter {
-  padding: 60px 10px;
-}
+  }
+  #footer_area .nav a.navbar-brand,
+  #footer_area .nav {
+    margin-bottom: 10px;
+  }
+  .footer_menu {
+    text-align: center;
+  }
+  .footer_newsletter {
+    padding: 60px 10px;
+  }
   .footer_bottom,
   .footer_social_icon {
     text-align: center;
@@ -420,7 +481,7 @@ h4 {
   .newsletter_form .theme_btn {
     margin-left: 0px;
     width: 100%;
-}
+  }
   .footer_social_icon {
     padding-top: 10px;
   }
