@@ -515,3 +515,86 @@ p {
 .footer_social_icon a:hover i {
   color: #ffd050;
 }
+/*
+blog page css start here
+*/
+/* ===== blog_hero_part start ====== */
+#blog_hero_part{
+    background: #f4f0f8;
+    padding: 120px 0;
+}
+.blog_hero_content{
+    padding-right: 115px;
+}
+.blog_hero_content .blog_top {
+    font-family: "Inter", sans-serif;
+    color: #232536;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+  .blog_hero_content .hero_top span {
+    font-weight: 600;
+  }
+  .blog_hero_content h2 {
+    font-size: 36px;
+    color: #232536;
+    line-height: 48px;
+    margin-bottom: 25px;
+}
+  .blog_hero_content .sm_text {
+    color: #4c4c4c;
+    margin-bottom: 20px;
+  }
+  .blog_hero_content .sm_text span {
+    color: #592ea9;
+  }
+  .blog_hero_content p {
+    color: #6d6e76;
+    margin-bottom: 40px;
+  }
+  /* ===== all_post_part start ====== */
+  #all_post{
+    padding: 60px 0px 20px;
+  }
+  .post_heading{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d0d1d3;
+  }
+  .post_item{
+    margin-top: 50px;
+  }
+  .post_content{
+    padding-left: 10px;
+    padding-right: 80px;
+  }
+  .post_content h6{
+    text-transform: uppercase;
+    color: #592ea9;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .post_content p{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #6D6E76;
+  }
+  .pagination_btn{
+    margin-top: 50px;
+  }
+  .pagination_btn button {
+    padding: 3px 10px;
+    border: none;
+    background: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #6d6e76;
+    transition: 0.3s;
+}
+.pagination_btn button:hover{
+    color: #232536;
+    transform: scale(1.2);
+}

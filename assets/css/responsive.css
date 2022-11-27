@@ -40,6 +40,16 @@
   .newsletter_form input {
     width: 210px;
   }
+  /*
+blog page css start here
+*/
+.blog_hero_content{
+  padding-right: 40px;
+}
+  .blog_hero_content h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -174,6 +184,33 @@
   .newsletter_form input {
     width: 380px;
   }
+
+  /*
+blog page css start here
+*/
+.blog_hero_content{
+  padding-right: 0px;
+  margin-bottom: 30px;
+}
+/* all_post_part start */
+.post_item_img{
+  display: flex;
+  align-items: center;
+}
+.post_content {
+  padding-right: 0px;
+}
+.post_content h6{
+  margin-bottom: 15px;
+}
+.post_content h2{
+  font-size: 20px;
+  line-height: 28px;
+}
+.post_content p {
+  margin-top: 15px;
+}
+
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -305,6 +342,35 @@
   .footer_menu .nav-item .nav-link {
     font-size: 13px;
   }
+
+
+    /*
+blog page css start here
+*/
+.blog_hero_content{
+  padding-right: 0px;
+  margin-bottom: 30px;
+}
+.blog_hero_content h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+/* ===== all_post_part start ====== */
+.post_content{
+  padding-right: 0;
+}
+.post_content h6{
+  margin-bottom: 5px;
+}
+.post_content h2{
+  font-size: 20px;
+  line-height: 28px;
+}
+.post_content p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
 }
 
 /*// extra-Small devices (landscape phones, 320px and up)*/
@@ -488,4 +554,37 @@
   .footer_social_icon a {
     margin-left: 20px;
   }
+
+      /*
+blog page css start here
+*/
+.blog_hero_content{
+  padding-right: 0px;
+  margin-bottom: 30px;
+}
+.blog_hero_content h2 {
+  font-size: 19px;
+  line-height: 32px;
+}
+.blog_hero_content .blog_top {
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+/* ===== all_post_part start ====== */
+.post_content{
+  padding-right: 0;
+  padding-top: 25px;
+}
+.post_content h6{
+  margin-bottom: 5px;
+}
+.post_content h2{
+  font-size: 20px;
+  line-height: 28px;
+}
+.post_content p {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
 }
