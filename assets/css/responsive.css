@@ -50,6 +50,14 @@ blog page css start here
     font-size: 32px;
     line-height: 42px;
 }
+/*
+blog-post page css start here
+*/
+/* ===== blog_inner_part start ====== */
+/* ===== blog_body_content_part start ====== */
+.blog_part{
+  padding-right: 0px;
+}
 }
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -209,6 +217,14 @@ blog page css start here
 }
 .post_content p {
   margin-top: 15px;
+}
+/*
+blog-post page css start here
+*/
+/* ===== blog_inner_part start ====== */
+/* ===== blog_body_content_part start ====== */
+.blog_part{
+  padding-right: 0px;
 }
 
 }
@@ -371,6 +387,21 @@ blog page css start here
   font-size: 14px;
   line-height: 20px;
 }
+
+/*
+blog-post page css start here
+*/
+/* ===== blog_inner_part start ====== */
+
+/* ===== blog_body_content_part start ====== */
+.blog_part{
+  padding-right: 0px;
+}
+.blog_part ul li{
+  font-size: 20px;
+  line-height: 28px;
+}
+
 }
 
 /*// extra-Small devices (landscape phones, 320px and up)*/
@@ -525,7 +556,11 @@ blog page css start here
   .footer_menu {
     text-align: center;
   }
+  .newsletter_form{
+    width: 100%;
+  }
   .footer_newsletter {
+    text-align: center;
     padding: 60px 10px;
   }
   .footer_bottom,
@@ -587,4 +622,22 @@ blog page css start here
   font-size: 14px;
   line-height: 20px;
 }
+
+/*
+blog-post page css start here
+*/
+/* ===== blog_inner_part start ====== */
+.blog-inner_content{
+  padding-right: 100px;
+}
+/* ===== blog_body_content_part start ====== */
+.blog_part{
+  padding-right: 0px;
+}
+.blog_part ul li{
+  font-size: 20px;
+  line-height: 28px;
+}
+
+
 }
