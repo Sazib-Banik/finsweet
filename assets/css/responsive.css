@@ -401,6 +401,10 @@ blog-post page css start here
   font-size: 20px;
   line-height: 28px;
 }
+/* ===== other_posts_part start ====== */
+.other_post_item{
+  margin-bottom: 50px;
+}
 
 }
 
@@ -638,6 +642,9 @@ blog-post page css start here
   font-size: 20px;
   line-height: 28px;
 }
-
+/* ===== other_posts_part start ====== */
+.other_post_item{
+  margin-bottom: 50px;
+}
 
 }
