@@ -181,6 +181,7 @@ contact page css start here
   #join_team .heading h2 {
     font-size: 35px;
   }
+
   /* ===== footer start ===== */
   .footer_menu .nav-item {
     margin-left: 0px;
@@ -241,6 +242,30 @@ contact page css start here
   font-size: 14px;
 }
 
+  /*
+category page css start here
+*/
+.category_body_content .catagory_item {
+  padding: 10px;
+}
+.category_body_content .heading h2 {
+  font-size: 28px;
+}
+.category_body_content .catagory_item .catagory_item_img {
+    width: 30px;
+    height: 30px;
+    background-color: #fbf6ea;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 7px;
+  margin-bottom: 0;
+}
+.category_body_content .catagory_item h3 {
+  margin-bottom: 0px;
+  font-size: 18px;
+}
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
