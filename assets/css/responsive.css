@@ -53,10 +53,17 @@ blog page css start here
 /*
 blog-post page css start here
 */
-/* ===== blog_inner_part start ====== */
+
 /* ===== blog_body_content_part start ====== */
 .blog_part{
   padding-right: 0px;
+}
+/*
+contact page css start here
+*/
+/* ===== contact_us_details start ====== */
+.working_hours_part p {
+  font-size: 14px;
 }
 }
 /*// Medium devices (tablets, 768px and up)*/
@@ -225,6 +232,13 @@ blog-post page css start here
 /* ===== blog_body_content_part start ====== */
 .blog_part{
   padding-right: 0px;
+}
+/*
+contact page css start here
+*/
+/* ===== contact_us_details start ====== */
+.working_hours_part p {
+  font-size: 14px;
 }
 
 }
@@ -406,6 +420,16 @@ blog-post page css start here
   margin-bottom: 50px;
 }
 
+/*
+contact page css start here
+*/
+/* ===== contact_us_details start ====== */
+.contact_us_part  {
+  padding-top: 35px;
+}
+.contact_us_part::after {
+  top: 70px;
+}
 }
 
 /*// extra-Small devices (landscape phones, 320px and up)*/
@@ -647,4 +671,14 @@ blog-post page css start here
   margin-bottom: 50px;
 }
 
+/*
+contact page css start here
+*/
+/* ===== contact_us_details start ====== */
+.contact_us_part  {
+  padding-top: 35px;
+}
+.contact_us_part::after {
+  top: 70px;
+}
 }
